@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Oswald-Regular"), url(/fonts/Oswald/Oswald-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Oswald-Medium";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Oswald-Medium"), url(/fonts/Oswald/Oswald-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local("Merriweather-Regular"), url(/fonts/Merriweather/Merriweather-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Merriweather-BoldItalic";
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: local("Merriweather-BoldItalic"), url(/fonts/Merriweather/Merriweather-BoldItalic.ttf) format("truetype");
+}
