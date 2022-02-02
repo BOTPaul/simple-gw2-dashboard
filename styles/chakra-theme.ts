@@ -45,5 +45,13 @@ export const CustomTheme = extendTheme({
         color: "black",
       },
     }
+  },
+  components: {
+    Heading: {
+      baseStyle: {
+        textColor: "black",
+        fontSize: "3xl"
+      }
+    }
   }
 });

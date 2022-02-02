@@ -1,9 +1,10 @@
 import type { NextPage } from "next";
-import { Container, VStack } from "@chakra-ui/react";
+import { VStack } from "@chakra-ui/react";
+import { ContainerBase } from "components/ContainerBase";
 
 const IndexPage: NextPage = () => (
-  <Container maxW={{ base: "container.lg", "sm": "container.sm" }}>
-  </Container>
+  <ContainerBase>
+  </ContainerBase>
 );
 
 export default IndexPage;

@@ -1,19 +1,19 @@
 import {
   Box,
-  Flex,
   VStack,
   HStack,
   Text,
   Heading,
   Divider,
-  Container,
 } from "@chakra-ui/react";
+
+import { PageBase } from "components/PageBase";
 
 const Styles: React.FC = () => {
   return (
-    <Container maxW="container.lg" py="8">
+    <PageBase>
       <VStack gap="8">
-        <Heading textColor="black" fontSize="3xl">
+        <Heading fontSize="3xl">
           Colours
         </Heading>
         <VStack gap="2">
@@ -39,7 +39,7 @@ const Styles: React.FC = () => {
           </HStack>
         </VStack>
         <Divider borderColor="gray.700" />
-        <Heading textColor="black" fontSize="3xl">
+        <Heading fontSize="3xl">
           Shades
         </Heading>
         <VStack gap="2">
@@ -59,55 +59,55 @@ const Styles: React.FC = () => {
           </HStack>
         </VStack>
         <Divider borderColor="gray.700" />
-        <Heading textColor="black" fontSize="3xl">
+        <Heading fontSize="3xl">
           Headings
         </Heading>
         <VStack gap="2">
-          <Heading textColor="black" fontSize="4xl">
+          <Heading fontSize="4xl">
             H0 4xl Heading 72px
           </Heading>
-          <Heading textColor="black" fontSize="3xl">
+          <Heading fontSize="3xl">
             H1 3xl Heading 48px
           </Heading>
-          <Heading textColor="black" fontSize="2xl">
+          <Heading fontSize="2xl">
             H2 2xl Heading 32px
           </Heading>
-          <Heading textColor="black" fontSize="xl">
+          <Heading fontSize="xl">
             H3 xl Heading 24px
           </Heading>
-          <Heading textColor="black" fontSize="lg">
+          <Heading fontSize="lg">
             H4 lg Heading 18px
           </Heading>
-          <Text textColor="black" fontFamily="Merriweather">
+          <Text fontFamily="Merriweather">
             P md Heading 16px
           </Text>
         </VStack>
         <Divider borderColor="gray.700" />
-        <Heading textColor="black" fontSize="3xl">
+        <Heading fontSize="3xl">
           Body
         </Heading>
         <VStack gap="2">
-          <Heading textColor="black" fontSize="4xl" fontFamily="Oswald-Medium">
+          <Heading fontSize="4xl" fontFamily="Oswald-Medium">
             H0 4xl Body 72px
           </Heading>
-          <Heading textColor="black" fontSize="3xl" fontFamily="Oswald-Medium">
+          <Heading fontSize="3xl" fontFamily="Oswald-Medium">
             H1 3xl Body 48px
           </Heading>
-          <Heading textColor="black" fontSize="2xl" fontFamily="Oswald-Medium">
+          <Heading fontSize="2xl" fontFamily="Oswald-Medium">
             H2 2xl Body 32px
           </Heading>
-          <Heading textColor="black" fontSize="xl" fontFamily="Oswald-Medium">
+          <Heading fontSize="xl" fontFamily="Oswald-Medium">
             H3 xl Body 24px
           </Heading>
-          <Heading textColor="black" fontSize="lg" fontFamily="Oswald-Medium">
+          <Heading fontSize="lg" fontFamily="Oswald-Medium">
             H4 lg Body 18px
           </Heading>
-          <Text textColor="black" fontFamily="Oswald">
+          <Text fontFamily="Oswald">
             P md Body 16px
           </Text>
         </VStack>
       </VStack>
-    </Container>
+    </PageBase>
   );
 };
 
