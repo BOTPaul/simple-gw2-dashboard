@@ -43,7 +43,7 @@ export const Toolbar: React.FC = () => {
   );
 
   return (
-    <Box background="primary.500" textColor="white">
+    <Box background="primary.700" textColor="white">
       <ContainerBase>
         <HStack h={toolbarHeight} px="4" justify="space-between">
           <NextLink href="/" passHref>
